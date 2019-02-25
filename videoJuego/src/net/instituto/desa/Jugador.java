@@ -19,4 +19,11 @@ public class Jugador {
 		this.x = x;
 	}
 
+	public void Derecha() { x ++; }
+	
+	public void Izquierda() { x --; }
+	
+	public void Arriba() { y ++; }
+	
+	public void Abajo() { y --; }
 }
